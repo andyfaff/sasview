@@ -57,7 +57,10 @@ class Generator:
         
 
 if __name__ == "__main__": 
-    from test_transfo import *
+    from .test_transfo import (from_x2, from_inv_x, from_inv_sqrtx, from_log10,
+                               err_log10, err_x2, err_inv_sqrtx, err_lnx,
+                               err_lnx2y, err_lnx4y, from_lnx4y, err_lnxy,
+                               from_lnx2y, from_lnx, err_inv_x, from_lnxy)
     gen = Generator()
     
     # Linear x series

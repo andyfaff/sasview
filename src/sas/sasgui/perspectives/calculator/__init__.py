@@ -1,8 +1,11 @@
 PLUGIN_ID = "Calculator plug-in 1.0"
 import os
 from distutils.filelist import findall
-from calculator import *
+from .calculator import Plugin
+
+
 N_DIR = 12
+
 def get_data_path(media):
     """
     """

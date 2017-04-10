@@ -40,6 +40,7 @@ EXTENSIONS = config.PLUGIN_STATE_EXTENSIONS + extension_list
 PLUGINS_WLIST = config.PLUGINS_WLIST
 APPLICATION_WLIST = config.APPLICATION_WLIST
 
+
 class Plugin(PluginBase):
 
     def __init__(self):

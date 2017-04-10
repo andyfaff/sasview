@@ -36,7 +36,6 @@ from sas.sasgui.guiframe.plugin_base import PluginBase
 
 logger = logging.getLogger(__name__)
 
-
 PR_FIT_LABEL = r"$P_{fit}(r)$"
 PR_LOADED_LABEL = r"$P_{loaded}(r)$"
 IQ_DATA_LABEL = r"$I_{obs}(q)$"
@@ -44,7 +43,6 @@ IQ_FIT_LABEL = r"$I_{fit}(q)$"
 IQ_SMEARED_LABEL = r"$I_{smeared}(q)$"
 GROUP_ID_IQ_DATA = r"$I_{obs}(q)$"
 GROUP_ID_PR_FIT = r"$P_{fit}(r)$"
-
 
 
 class Plugin(PluginBase):

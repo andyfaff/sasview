@@ -17,7 +17,11 @@ from sas.sasgui.perspectives.pr.pr_widgets import DataDialog
 from sas.sasgui.perspectives.corfunc.corfunc_state import Reader
 from sas.sascalc.dataloader.loader import Loader
 import sas.sascalc.dataloader
-from plot_labels import *
+from .plot_labels import (GROUP_ID_IQ_DATA, IQ_DATA_LABEL,
+                          IQ_EXTRAPOLATED_DATA_LABEL,
+                          GROUP_ID_TRANSFORM,
+                          TRANSFORM_LABEL1,
+                          TRANSFORM_LABEL3)
 
 logger = logging.getLogger(__name__)
 

@@ -16,7 +16,11 @@ from sas.sasgui.perspectives.corfunc.corfunc_state import CorfuncState
 import sas.sasgui.perspectives.corfunc.corfunc
 from sas.sascalc.corfunc.corfunc_calculator import CorfuncCalculator
 from sas.sasgui.guiframe.documentation_window import DocumentationWindow
-from plot_labels import *
+from .plot_labels import (GROUP_ID_IQ_DATA, IQ_DATA_LABEL,
+                         IQ_EXTRAPOLATED_DATA_LABEL,
+                         GROUP_ID_TRANSFORM,
+                         TRANSFORM_LABEL1,
+                         TRANSFORM_LABEL3)
 
 OUTPUT_STRINGS = {
     'max': "Long Period (A): ",

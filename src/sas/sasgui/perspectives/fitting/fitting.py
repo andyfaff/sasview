@@ -68,6 +68,7 @@ except ImportError:
     # CRUFT: bumps 0.7.5.8 and below
     EVT_FITTER_CHANGED = None  # type: wx.PyCommandEvent
 
+
 class Plugin(PluginBase):
     """
     Fitting plugin is used to perform fit
